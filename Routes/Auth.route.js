@@ -8,8 +8,6 @@ router.post('/register', AuthController.register)
 
 router.post('/login', AuthController.login)
 
-router.delete('/edit/phonenumber', AuthController.logout)
-
 router.post('/submit-test', AuthController.refreshToken)
 
 module.exports = router
